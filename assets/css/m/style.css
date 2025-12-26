@@ -7,7 +7,7 @@ html {
 body {
     min-height: 100%;
     margin: 0;
-    background: linear-gradient(70deg, #2b1306, #7a4226, #a5543c, #c48f66, #e0bca3);
+    background: linear-gradient(70deg, #2b1306, #4b1f0d, #81471f, #b35f33, #c9743f, #d4a16e, #d9af83, #edc8a0, #f3d9b0);
     background-size: 600% 600%;
     background-repeat: no-repeat;
     display: flex;
@@ -15,8 +15,8 @@ body {
     font: 'Product Sans';
     font-family: 'Play', sans-serif;
     font: "Play";
-    animation: BgAnim 5s ease infinite;
-    -webkit-animation: BgAnim 5s ease infinite;
+    animation: BgAnim 3s ease infinite;
+    -webkit-animation: BgAnim 3s ease infinite;
 }
 .blur {
     backdrop-filter: blur(20px);
@@ -314,6 +314,7 @@ a.btn-donut:hover {
     }
 
 }
+
 
 
 
