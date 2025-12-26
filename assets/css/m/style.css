@@ -105,7 +105,7 @@ a.link {
     width: 10em;
     height: 10em;
     border-radius: 5.6em;
-    border: #dbcd63 solid 2px;
+    border: #ff0000 solid 2px;
 }
 
 .pizdec {
@@ -314,6 +314,7 @@ a.btn-donut:hover {
     }
 
 }
+
 
 
 
