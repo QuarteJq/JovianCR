@@ -1,5 +1,5 @@
 /* mobile index page styles */
-html {
+body {
     width: 100%;
     min-height: 100%;
 }
@@ -311,6 +311,7 @@ a.btn-donut:hover {
     }
 
 }
+
 
 
 
