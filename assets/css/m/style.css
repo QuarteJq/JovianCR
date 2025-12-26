@@ -1,6 +1,10 @@
 /* mobile index page styles */
+html {
+	height: 100%;
+	width: 100%;
+}
+
 body {
-    width: 100%;
     min-height: 100%;
     margin: 0;
     background: linear-gradient(290deg, #f0b800, #8a4f14, #ffe38a, #4fb3b1, #b8742a);
@@ -310,6 +314,7 @@ a.btn-donut:hover {
     }
 
 }
+
 
 
 
