@@ -15,8 +15,8 @@ body {
     font: 'Product Sans';
     font-family: 'Play', sans-serif;
     font: "Play";
-    animation: BgAnim 10s ease infinite;
-    -webkit-animation: BgAnim 10s ease infinite;
+    animation: BgAnim 5s ease infinite;
+    -webkit-animation: BgAnim 5s ease infinite;
 }
 .blur {
     backdrop-filter: blur(20px);
@@ -314,6 +314,7 @@ a.btn-donut:hover {
     }
 
 }
+
 
 
 
