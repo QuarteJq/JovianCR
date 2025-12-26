@@ -1,7 +1,7 @@
 /* mobile index page styles */
 body {
     width: 100%;
-    min-height: 100%;
+    height: 100%;
     margin: 0;
     background: linear-gradient(300deg, #f0b800, #8a4f14, #ffe38a, #4fb3b1, #b8742a);
     background-size: 600% 600%;
@@ -310,6 +310,7 @@ a.btn-donut:hover {
     }
 
 }
+
 
 
 
