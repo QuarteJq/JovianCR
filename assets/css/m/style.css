@@ -3,7 +3,7 @@ body {
     width: 100%;
     min-height: 100%;
     margin: 0;
-    background: linear-gradient(200deg, #302f36, #1a1b1d, #9e999e, #5f5b65, #020202);
+    background: linear-gradient(200deg, #f511b1, #f59f11);
     background-size: 600% 600%;
     background-repeat: no-repeat;
     display: flex;
@@ -310,4 +310,5 @@ a.btn-donut:hover {
     }
 
 }
+
 
