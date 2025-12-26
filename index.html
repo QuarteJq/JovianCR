@@ -62,16 +62,22 @@
                 <a href="javascript://" onclick="location.href='https://t.me/JovianCR'" class="mx-2 social-icon" data-tooltip="Telegram">
                     <span class="mdi mdi-telegram"></span>
                     
-             <a class="mx-2 social-icon" data-tooltip="Google Calendar" href="https://calendar.google.com" target="_blank">
-  <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/googlecalendar.svg" alt="Google Calendar" style="width:20px; height:20px; filter: brightness(0) invert(1);">
+             <a class="mx-2 social-icon" data-tooltip="Google Calendar" href="https://calendar.google.com" target="_blank" style="display:inline-block;">
+  <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/googlecalendar.svg" alt="Google Calendar" style="width:20px; height:20px; filter: brightness(0) invert(1); transition: transform 0.2s, filter 0.2s;">
 </a>
+
+<style>
+  .social-icon:hover img,
+  .social-icon:focus img {
+    transform: scale(1.2); /* лёгкое увеличение */
+    filter: brightness(0) invert(0.7); /* подсветка */
+  }
+</style>
+
                 <a href="javascript://" onclick="location.href='https://www.instagram.com/_?igsh=bHd6MHVraDN0N3Q1'" class="mx-2 social-icon" data-tooltip="Instagram">
                     <span class="mdi mdi-instagram"></span>
                 </a>
-                <a class="mx-2 social-icon" data-tooltip="Психология" href="https://b17.ru" target="_blank">
-  <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/psychology.svg" alt="Психология" style="width:24px; height:24px; filter: brightness(0) invert(1);">
-</a>
-                </a>
+                
            <a class="mx-2 social-icon" data-tooltip="Notion" href="https://notion.so" target="_blank">
   <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/notion.svg" alt="Notion" style="width:20px; height:20px; filter: brightness(0) invert(1);">
 </a>
@@ -83,7 +89,7 @@
                 <h2>Дополнительно</h2>
             </div>
             <div class="social linkMenu d-flex justify-content-center">
-                <a class="mx-2 social-icon" data-tooltip="Donate" href="#" data-toggle="modal" data-target="#donut">
+                <a class="mx-2 social-icon" data-tooltip="Inform" href="#" data-toggle="modal" data-target="#donut">
                     <span class="mdi mdi-heart-outline"></span>
                 </a>
                 <a href="javascript://" onclick="location.href='../projects'" class="mx-2 social-icon" data-tooltip="Projects">
